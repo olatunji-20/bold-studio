@@ -38,7 +38,7 @@
 }
 .main p {
     color: red;
-    font-size: 45px;
+    font-size: 40px;
     display: inline-block;
 }
 .main .view {
