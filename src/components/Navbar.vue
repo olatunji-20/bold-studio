@@ -129,10 +129,12 @@
   }
   .sec .approach {
     border: 1px solid firebrick;
-    height: 100px;
+    height: 80px;
     width: 90%;
     text-align: left;
-    margin-top: 150px;
+    margin-top: 170px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .large-image {
     width: 94%;

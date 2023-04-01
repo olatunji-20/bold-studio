@@ -3,6 +3,7 @@
     <Navbar />
     <Clients />
     <Featured />
+    <Services />
     <Footbar />
   </div>
 </template>
@@ -11,6 +12,7 @@
 import Navbar from './components/Navbar.vue'
 import Clients from './components/Clients.vue'
 import Featured from './components/Featured.vue'
+import Services from './components/Services.vue'
 import Footbar from './components/Footbar.vue'
 
 export default {
@@ -19,6 +21,7 @@ export default {
     Navbar,
     Clients,
     Featured,
+    Services,
     Footbar
   }
 }

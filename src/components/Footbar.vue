@@ -140,7 +140,7 @@
 .five {
   width: 100%;
   height: 5rem;
-  border-top: 1px solid aquamarine;
+  border-top: 1px solid white;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
   padding: 0.1875rem;
