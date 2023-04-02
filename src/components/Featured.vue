@@ -3,7 +3,12 @@
         <div class="main">
             <p>FEATURED PROJECTS</p>
             <div class="view"></div>
-            <div class="project"></div>
+            <div class="project">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="four"></div>
+                <div class="three "></div>
+            </div>
         </div>
     </section>
 </template>
@@ -43,6 +48,34 @@ export default {
     border: 2px solid violet;
     margin-top: 20px;
     width: 100%;
-    height: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .project .one  {
+    border: 1px solid blue;
+    width: 47%;
+    height: 800px;
+}
+.main .project .two  {
+    border: 1px solid red;
+    width: 47%;
+    height: 700px;
+}
+.main .project .three  {
+    border: 1px solid blue;
+    width: 47%;
+    height: 800px;
+    position: relative;
+    bottom: 50px;
+}
+.main .project .four  {
+    border: 1px solid red;
+    width: 47%;
+    height: 700px;
+    position: relative;
+    top: 50px;
 }
 </style>
