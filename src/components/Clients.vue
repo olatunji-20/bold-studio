@@ -5,11 +5,12 @@
             <div class="view"></div>
             <div class="clients">
                 <div class="roller">
-                    <div class="spons"></div>
-                    <div class="spons"></div>
-                    <div class="spons"></div>
-                    <div class="spons"></div>
-                    <div class="spons"></div>
+                    <div class="spons">A</div>
+                    <div class="spons">B</div>
+                    <div class="spons">C</div>
+                    <div class="spons">D</div>
+                    <div class="spons">E</div>
+                    <div class="spons">F</div>
                 </div>
             </div>
         </div>
@@ -55,16 +56,50 @@
     height: auto;
     margin: 20px auto;
     padding: 20px;
-    overflow: auto;
+    overflow: hidden;
 }
+@keyframes scrollee {
+  0% {
+    right: 0rem;
+  }
+  13% {
+    right: 0rem;
+  }
+  26% {
+    right: 18.75rem;
+  }
+  39% {
+    right: 18.75rem;
+  }
+  52% {
+    right: 37.5rem;
+  }
+  65% {
+    right: 37.5rem;
+  }
+  78% {
+    right: 56.25rem;
+  }
+  90% {
+    right: 56.25rem;
+  }
+  100% {
+    right: 0rem;
+  }
+}
+
 .clients .roller {
     border: 2px solid red;
     height: auto;
-    width: 1500px;
+    width: 2000px;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow: hidden;
+    animation-name: scrollee;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 .clients .spons {
     border: 1px solid black;

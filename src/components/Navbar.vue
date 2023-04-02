@@ -10,7 +10,9 @@
                     <li>CONTACT</li>
                 </ul>
             </div>
-            <div class="start"></div>
+            <div class="start">
+              <p>START A PROJECT</p>
+            </div>
         </div>
         <div class="design">
             <div class="first">
@@ -85,10 +87,11 @@
   }
   .start {
     width: 220px;
-    height: 50px;
+    height: 45px;
     border: 1px solid red;
     position: relative;
     left: 20px;
+    font-size: 14px;
   }
   .design {
     border: 2px solid blue;

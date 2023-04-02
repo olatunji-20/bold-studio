@@ -13,8 +13,8 @@
     <div class="two">
       <h4>Support</h4>
       <ul>
-        <li>Help center</li>
-        <li>Account information</li>
+        <li>Projects</li>
+        <li>Journal</li>
         <li>About</li>
         <li>Contact us</li>
       </ul>
@@ -22,7 +22,7 @@
     <div class="three">
       <h4>Product</h4>
       <ul>
-        <li>Study Room</li>
+        <li>Subscribe</li>
         <li>Discord Server</li>
         <li>Beta test</li>
       </ul>
@@ -43,20 +43,20 @@
 </template>
 
 <script>
-// import Facebook from "vue-material-design-icons/Facebook.vue";
-// import Twitter from "vue-material-design-icons/Twitter.vue";
-// import Youtube from "vue-material-design-icons/Youtube.vue";
-// import Instagram from "vue-material-design-icons/Instagram.vue";
+import Facebook from "vue-material-design-icons/Facebook.vue";
+import Twitter from "vue-material-design-icons/Twitter.vue";
+import Youtube from "vue-material-design-icons/Youtube.vue";
+import Instagram from "vue-material-design-icons/Instagram.vue";
 
-// export default {
-//   name: "Footbar",
-//   components: {
-//     Facebook,
-//     Twitter,
-//     Youtube,
-//     Instagram,
-//   },
-// };
+export default {
+  name: "Footbar",
+  components: {
+    Facebook,
+    Twitter,
+    Youtube,
+    Instagram,
+  },
+};
 </script>
 
 
@@ -98,13 +98,13 @@
   width: 3.125rem;
   height: 3.25rem;
   border-radius: 50%;
-  border: 1px solid #999999;
-  color: aquamarine;
+  border: 2px solid #999999;
+  color: white;
   padding: 15px 12px;
   transition: 0.3s;
 }
 .social:hover {
-  border: 1px solid aquamarine;
+  border: 1px solid goldenrod;
   cursor: pointer;
 }
 .two,

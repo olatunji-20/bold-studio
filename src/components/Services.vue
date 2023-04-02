@@ -7,22 +7,25 @@
                     <p>01</p>
                     <hr />
                     <p>INTERIOR DESIGN</p>
-                    <P>Combining strategy, branding web design and development, we build digital experiences that transform the way people connect and interact with brands.</P>
+                    <P class="com">Combining strategy, branding web design and development, we build digital experiences that transform the way people connect and interact with brands.</P>
                 </div>
                 <div class="int">
                     <p>02</p>
                     <hr />
                     <p>INTERIOR DESIGN</p>
-                    <P>Combining strategy, branding web design and development, we build digital experiences that transform the way people connect and interact with brands.</P>
+                    <P class="com">Combining strategy, branding web design and development, we build digital experiences that transform the way people connect and interact with brands.</P>
                 </div>
                 <div class="int">
                     <p>03</p>
                     <hr />
                     <p>INTERIOR DESIGN</p>
-                    <P>Combining strategy, branding web design and development, we build digital experiences that transform the way people connect and interact with brands.</P>
+                    <P class="com">Combining strategy, branding web design and development, we build digital experiences that transform the way people connect and interact with brands.</P>
                 </div>
             </div>
-            <div class="project"></div>
+            <div class="project">
+                <div class="one"></div>
+                <div class="two"></div>
+            </div>
         </div>
     </section>
 </template>
@@ -66,10 +69,28 @@ export default {
     width: 350px;
     height: 250px;
 }
+.main .interior .int .com {
+    font-size: 14px;
+    line-height: 18px;
+}
 .main .project {
     border: 2px solid violet;
     margin-top: 20px;
     width: 100%;
-    height: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main .project .one {
+    border: 1px solid blue;
+    width: 48%;
+    height: 650px;
+}
+.main .project .two {
+    border: 1px solid rebeccapurple;
+    width: 43%;
+    height: 550px;
+    margin-top: 350px;
 }
 </style>
