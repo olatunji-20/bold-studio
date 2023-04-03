@@ -45,8 +45,8 @@ export default {
     border: 2px solid teal;
     width: 93%;
     height: auto;
-    margin: 50px auto;
-    padding: 80px 0px;
+    margin: 3.25rem auto;
+    padding: 5rem 0rem;
     text-align: left;
 }
 .main .ser {
@@ -58,16 +58,16 @@ export default {
     border: 1px solid orangered;
     height: auto;
     width: 100%;
-    padding: 20px 0px;
+    padding: 1.25rem 0rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 .main .interior .int {
     border: 1px solid brown;
-    width: 350px;
-    height: 250px;
+    width: 21.875rem;
+    height: 15.625rem;
 }
 .main .interior .int .com {
     font-size: 14px;
@@ -75,7 +75,7 @@ export default {
 }
 .main .project {
     border: 2px solid violet;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -85,12 +85,12 @@ export default {
 .main .project .one {
     border: 1px solid blue;
     width: 48%;
-    height: 650px;
+    height: 40.625rem;
 }
 .main .project .two {
     border: 1px solid rebeccapurple;
     width: 43%;
-    height: 550px;
-    margin-top: 350px;
+    height: 34.375rem;
+    margin-top: 21.875rem;
 }
 </style>

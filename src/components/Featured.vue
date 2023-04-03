@@ -47,8 +47,8 @@ export default {
     border: 2px solid teal;
     width: 93%;
     height: auto;
-    margin: 50px auto;
-    padding: 80px 0px;
+    margin: 3.125rem auto;
+    padding: 5rem 0rem;
     text-align: left;
 }
 .main .feat {
@@ -58,15 +58,15 @@ export default {
 }
 .main .view {
     border: 2px solid fuchsia;
-    height: 50px;
-    width: 150px;
+    height: 3.125rem;
+    width: 9.375rem;
     /* display: inline-block; */
     float: right;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .main .project {
     border: 2px solid violet;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -77,50 +77,50 @@ export default {
 .main .project .one  {
     border: 1px solid blue;
     width: 47%;
-    height: 800px;
+    height: 50rem;
 }
 .main .project .one .image {
     border: 1px solid yellowgreen;
     width: 100%;
-    height: 750px;
+    height: 46.875rem;
 }
 
 .main .project .two  {
     border: 1px solid red;
     width: 47%;
-    height: 700px;
+    height: 43.75rem;
 }
 
 .main .project .two .image {
     border: 1px solid yellowgreen;
     width: 100%;
-    height: 650px;
+    height: 40.625rem;
 }
 .main .project .three  {
     border: 1px solid blue;
     width: 47%;
-    height: 800px;
+    height: 50rem;
     position: relative;
-    bottom: 50px;
+    bottom: 3.125rem;
 }
 
 .main .project .three .image {
     border: 1px solid yellowgreen;
     width: 100%;
-    height: 750px;
+    height: 46.875rem;
 }
 .main .project .four  {
     border: 1px solid red;
     width: 47%;
-    height: 700px;
+    height: 43.75rem;
     position: relative;
-    top: 50px;
+    top: 3.125rem;
 }
 
 .main .project .four .image {
     border: 1px solid yellowgreen;
     width: 100%;
-    height: 650px;
+    height: 40.625rem;
 }
 .house {
     display: inline-block;
@@ -129,7 +129,7 @@ export default {
 .location {
     display: inline-block;
     font-size: 11px;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     vertical-align: super;
 }
 .year {

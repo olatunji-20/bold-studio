@@ -104,7 +104,7 @@ export default {
   transition: 0.3s;
 }
 .social:hover {
-  border: 1px solid goldenrod;
+  border: 2px solid goldenrod;
   cursor: pointer;
 }
 .two,
@@ -141,7 +141,7 @@ export default {
   width: 100%;
   height: 5rem;
   border-top: 1px solid white;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin-bottom: 20px;
   padding: 0.1875rem;
   font-size: 1.25rem;

@@ -32,10 +32,10 @@
 .main {
     border: 2px solid peru;
     width: 93%;
-    height: 500px;
+    height: 31.25rem;
     text-align: left;
-    padding-bottom: 50px;
-    margin: 50px auto 0px;
+    padding-bottom: 3.125rem;
+    margin: 3.125rem auto 0rem;
 }
 .main p {
     color: red;
@@ -44,18 +44,18 @@
 }
 .main .view {
     border: 2px solid fuchsia;
-    height: 50px;
-    width: 200px;
+    height: 3.125rem;
+    width: 12.5rem;
     /* display: inline-block; */
     float: right;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .clients {
     border: 1px solid blueviolet;
     width: 100%;
     height: auto;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
     overflow: hidden;
 }
 @keyframes scrollee {
@@ -91,7 +91,7 @@
 .clients .roller {
     border: 2px solid red;
     height: auto;
-    width: 2000px;
+    width: 125rem;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -103,7 +103,7 @@
 }
 .clients .spons {
     border: 1px solid black;
-    height: 250px;
-    width: 250px;
+    height: 15.625rem;
+    width: 15.625rem;
 }
 </style>
