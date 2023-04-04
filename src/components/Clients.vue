@@ -106,4 +106,26 @@
     height: 15.625rem;
     width: 15.625rem;
 }
+
+@media screen and (max-width: 800px) {
+  .main p {
+    font-size: 35px;
+  }
+  .main .view {
+    margin-top: 2rem;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .main p {
+    font-size: 30px;
+  }
+  .main .view {
+    height: 2rem;
+    width: 10rem;
+    margin-top: 1.8rem;
+  }
+}
 </style>

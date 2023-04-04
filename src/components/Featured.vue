@@ -75,7 +75,7 @@ export default {
     justify-content: space-between;
 }
 .main .project .one  {
-    border: 1px solid blue;
+    border: 4px solid blue;
     width: 47%;
     height: 50rem;
 }
@@ -86,7 +86,7 @@ export default {
 }
 
 .main .project .two  {
-    border: 1px solid red;
+    border: 4px solid red;
     width: 47%;
     height: 43.75rem;
 }
@@ -97,7 +97,7 @@ export default {
     height: 40.625rem;
 }
 .main .project .three  {
-    border: 1px solid blue;
+    border: 4px solid blue;
     width: 47%;
     height: 50rem;
     position: relative;
@@ -110,7 +110,7 @@ export default {
     height: 46.875rem;
 }
 .main .project .four  {
-    border: 1px solid red;
+    border: 4px solid red;
     width: 47%;
     height: 43.75rem;
     position: relative;
@@ -136,5 +136,108 @@ export default {
     float: right;
     font-weight: bold;
     font-size: 17px;
+}
+
+@media screen and (max-width: 800px) {
+  .main .feat {
+    font-size: 35px;
+  }
+  .main .view {
+    margin-top: 2rem;
+  }
+  .main .project .one {
+    width: 49%;
+    height: 35rem;
+  }
+  .main .project .one .image {
+    width: 100%;
+    height: 32rem;
+  }
+  .main .project .two {
+    width: 49%;
+    height: 30rem;
+  }
+  .main .project .two .image {
+    width: 100%;
+    height: 27rem;
+  }
+  .main .project .three {
+    width: 49%;
+    height: 35rem;
+  }
+  .main .project .three .image {
+    width: 100%;
+    height: 32rem;
+  }
+  .main .project .four {
+    width: 49%;
+    height: 30rem;
+    top: 1.9rem;
+  }
+  .main .project .four .image {
+    width: 100%;
+    height: 27rem;
+  }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .main p {
+    font-size: 30px;
+  }
+  .main .view {
+    display: none;
+  }
+  .main .project {
+    flex-direction: column;
+  }
+  .main .project .one {
+    width: 100%;
+    height: 33rem;
+    margin: 25px auto;
+  }
+  .main .project .one .image {
+    width: 100%;
+    height: 29rem;
+  }
+  .main .project .two {
+    width: 100%;
+    height: 33rem;
+    margin: 25px auto;
+  }
+  .main .project .two .image {
+    width: 100%;
+    height: 29rem;
+  }
+  .main .project .three {
+    width: 100%;
+    height: 33rem;
+    margin: 25px auto;
+    bottom: 0px;
+  }
+  .main .project .three .image {
+    width: 100%;
+    height: 29rem;
+  }
+  .main .project .four {
+    width: 100%;
+    height: 33rem;
+    margin: 25px auto;
+    top: 0px;
+  }
+  .main .project .four .image {
+    width: 100%;
+    height: 29rem;
+  }
+  /* .house {}
+  .location {}
+  .year {} */
 }
 </style>

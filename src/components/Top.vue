@@ -186,13 +186,7 @@
     display: none;
   }
   .large-image {
-    height: 30rem;
-  }
-
-
-
-  .sec .approach {
-
+    height: 28rem;
   }
 
 
@@ -214,13 +208,17 @@
   .first {
     width: 100%;
   }
-  .large-image {
-    height: 20rem;
-  }
   .sec {
     width: 100%;
   }
-  .creating .create, .creating .create2 {
+  .large-image {
+    height: 20rem;
+  }
+  .creating .create {
+    width: 100%;
+    height: 14rem;
+  }
+  .creating .create2 {
     width: 100%;
   }
 }
