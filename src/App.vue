@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+    <Top />
     <Clients />
     <Featured />
     <Services />
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import Top from './components/Top.vue'
 import Clients from './components/Clients.vue'
 import Featured from './components/Featured.vue'
 import Services from './components/Services.vue'
@@ -18,7 +18,7 @@ import Footbar from './components/Footbar.vue'
 export default {
   name: 'App',
   components: {
-    Navbar,
+    Top,
     Clients,
     Featured,
     Services,

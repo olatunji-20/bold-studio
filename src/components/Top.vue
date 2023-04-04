@@ -49,7 +49,7 @@
   
 <script>
   export default {
-    name: "Navbar",
+    name: "Top",
     data() {
       return {};
     },
@@ -75,7 +75,7 @@
     right: 3.125rem;
   }
   .options {
-    width: 28.125rem;
+    width: auto;
     height: 3.125rem;
     border: 1px solid blue;
   }
@@ -83,10 +83,10 @@
     list-style-type: none;
     display: inline-block;
     font-size: 14px;
-    margin: 0px 15px;
+    margin: 0px 15px 0px 0px;
   }
   .start {
-    width: 13.75rem;
+    width: 12.75rem;
     height: 2.8125rem;
     border: 1px solid red;
     position: relative;
@@ -96,9 +96,10 @@
   .design {
     border: 2px solid blue;
     width: 100%;
-    height: 25.625rem;
+    height: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 6.25rem;
     justify-content: space-between;
   }
@@ -129,13 +130,16 @@
     height: 15.625rem;
     border: 1px solid red;
     /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   .sec .approach {
     border: 1px solid firebrick;
-    height: 5rem;
-    width: 90%;
+    height: auto;
+    width: 100%;
     text-align: left;
-    margin-top: 10.625rem;
+    /* margin-top: 10.625rem; */
     font-size: 14px;
     line-height: 20px;
   }
@@ -146,12 +150,13 @@
     margin: 3.125rem auto 6.25rem;
   }
   .creating {
-    border-bottom: 2px solid goldenrod;
+    border: 2px solid goldenrod;
     width: 94%;
     height: auto;
     padding: 0.62rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 0.625rem auto;
     justify-content: space-between;
   }
@@ -173,6 +178,52 @@
   .create .inter {
     font-size: 30px;
   }
+@media screen and (max-width: 800px) {
+  .logo {
+    right: 0px;
+  }
+  .start {
+    display: none;
+  }
+  .large-image {
+    height: 30rem;
+  }
+
+
+
+  .sec .approach {
+
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .main {
+    justify-content: flex-start;
+  }
+  .options {
+    display: none;
+  }
+  .design {
+    margin: 0px auto;
+    width: 94%;
+  }
+  .first {
+    width: 100%;
+  }
+  .large-image {
+    height: 20rem;
+  }
+  .sec {
+    width: 100%;
+  }
+  .creating .create, .creating .create2 {
+    width: 100%;
+  }
+}
 
 </style>
   
