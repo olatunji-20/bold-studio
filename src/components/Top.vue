@@ -1,7 +1,9 @@
 <template>
     <div>
         <div class="main">
-            <div class="logo"></div>
+            <div class="logo">
+              <img src="../assets/bold-logo.png" class="logoo" />
+            </div>
             <div class="options">
                 <ul>
                     <li>PROJECTS</li>
@@ -73,6 +75,11 @@
     border: 1px solid green;
     position: relative;
     right: 3.125rem;
+  }
+  .logoo {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
   }
   .options {
     width: auto;
@@ -207,6 +214,9 @@
   }
   .first {
     width: 100%;
+  }
+  .first h3 {
+    font-size: 40px;
   }
   .sec {
     width: 100%;

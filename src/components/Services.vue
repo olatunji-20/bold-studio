@@ -93,4 +93,36 @@ export default {
     height: 34.375rem;
     margin-top: 21.875rem;
 }
+
+@media screen and (max-width: 800px) {
+    .main .project .one {
+        height: 33rem;
+    }
+    .main .project .two {
+        height: 29rem;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .main .interior {
+        flex-wrap: wrap;
+    }
+    .main .interior .int {
+        width: 100%;
+    }
+    .main .project {
+        flex-direction: column;
+    }
+    .main .project .one {
+        width: 100%;
+    }
+    .main .project .two {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+
+
 </style>

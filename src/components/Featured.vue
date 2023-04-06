@@ -75,7 +75,7 @@ export default {
     justify-content: space-between;
 }
 .main .project .one  {
-    border: 4px solid blue;
+    border: 1px solid blue;
     width: 47%;
     height: 50rem;
 }
@@ -86,7 +86,7 @@ export default {
 }
 
 .main .project .two  {
-    border: 4px solid red;
+    border: 1px solid red;
     width: 47%;
     height: 43.75rem;
 }
@@ -97,7 +97,7 @@ export default {
     height: 40.625rem;
 }
 .main .project .three  {
-    border: 4px solid blue;
+    border: 1px solid blue;
     width: 47%;
     height: 50rem;
     position: relative;
@@ -110,7 +110,7 @@ export default {
     height: 46.875rem;
 }
 .main .project .four  {
-    border: 4px solid red;
+    border: 1px solid red;
     width: 47%;
     height: 43.75rem;
     position: relative;
@@ -236,8 +236,23 @@ export default {
     width: 100%;
     height: 29rem;
   }
-  /* .house {}
-  .location {}
-  .year {} */
+  .main .project .one .house,
+  .main .project .two .house,
+  .main .project .three .house,
+  .main .project .four .house {
+    font-size: 17px
+  }
+  .main .project .one .location,
+  .main .project .two .location,
+  .main .project .three .location,
+  .main .project .four .location {
+    font-size: 11px;
+  }
+  .main .project .one .year,
+  .main .project .two .year,
+  .main .project .three .year,
+  .main .project .four .year {
+    font-size: 17px;
+  }
 }
 </style>
