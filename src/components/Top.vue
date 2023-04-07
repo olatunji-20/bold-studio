@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="large-image">
-
+          <img src="../assets/chair.png" class="pictures" />
         </div>
         <div class="creating">
           <div class="create">
@@ -70,16 +70,17 @@
     justify-content: space-around;
   }
   .logo {
-    width: 12.5rem;
-    height: 3.125rem;
+    width: 180px;
+    height: 30px;
     border: 1px solid green;
     position: relative;
+    top: 12px;
     right: 3.125rem;
   }
   .logoo {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
   }
   .options {
     width: auto;
@@ -155,6 +156,11 @@
     height: 43.75rem;
     border: 1px solid darkblue;
     margin: 3.125rem auto 6.25rem;
+  }
+  .pictures {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .creating {
     border: 2px solid goldenrod;
