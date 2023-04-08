@@ -2,10 +2,17 @@
     <section>
         <div class="main">
             <p class="feat">FEATURED PROJECTS</p>
-            <div class="view"></div>
+            <div class="view">              
+              <h4>VIEW ALL</h4>
+                <div class="arrow">
+                  <img src="../assets/arrow.png" class="logoo" />
+                </div>
+            </div>
             <div class="project">
                 <div class="one">
-                    <div class="image"></div>
+                    <div class="image">
+                      <img src="../assets/bulb.png" class="featured-image" />
+                    </div>
                     <p class="house">STRANFIELD</p>
                     <p class="location">LONDON</p>
                     <p class="year">2022</p>
@@ -63,7 +70,25 @@ export default {
     /* display: inline-block; */
     float: right;
     margin-top: 2.5rem;
-}
+} 
+.main .view h4 {
+    line-height: 0px;
+    position: relative;
+    /* top: 0.3125rem; */
+    display: inline-block;
+  }
+  .main .view .arrow {
+    border: 1px solid red;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  .logoo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 .main .project {
     border: 2px solid violet;
     margin-top: 1.25rem;
@@ -84,7 +109,11 @@ export default {
     width: 100%;
     height: 46.875rem;
 }
-
+.main .project .one .image .featured-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
 .main .project .two  {
     border: 1px solid red;
     width: 47%;

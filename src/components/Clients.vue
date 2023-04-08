@@ -2,15 +2,32 @@
     <section>
         <div class="main">
             <p>CLIENTS</p>
-            <div class="view"></div>
+            <div class="view">              
+              <h4>VIEW ALL WORK</h4>
+                <div class="arrow">
+                  <img src="../assets/arrow.png" class="logoo" />
+                </div>
+            </div>
             <div class="clients">
                 <div class="roller">
-                    <div class="spons">A</div>
-                    <div class="spons">B</div>
-                    <div class="spons">C</div>
-                    <div class="spons">D</div>
-                    <div class="spons">E</div>
-                    <div class="spons">F</div>
+                    <div class="spons">
+                      <img src="../assets/ad.png" class="sponsor"/>
+                    </div>
+                    <div class="spons">
+                      <img src="../assets/copysmith.png" class="sponsor"/>
+                    </div>
+                    <div class="spons">
+                      <img src="../assets/algorand.png" class="sponsor"/>
+                    </div>
+                    <div class="spons">
+                      <img src="../assets/google.png" class="sponsor"/>
+                    </div>
+                    <div class="spons">
+                      <img src="../assets/copysmith.png" class="sponsor"/>
+                    </div>
+                    <div class="spons">
+                      <img src="../assets/algorand.png" class="sponsor"/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,7 +47,7 @@
 
 <style scoped>
 .main {
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
     width: 93%;
     height: 31.25rem;
     text-align: left;
@@ -43,15 +60,33 @@
     display: inline-block;
 }
 .main .view {
-    border: 2px solid fuchsia;
+    /* border: 2px solid fuchsia; */
     height: 3.125rem;
     width: 12.5rem;
     /* display: inline-block; */
     float: right;
     margin-top: 2.5rem;
 }
+.main .view h4 {
+    line-height: 0px;
+    position: relative;
+    /* top: 0.3125rem; */
+    display: inline-block;
+  }
+  .logoo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .main .view .arrow {
+    /* border: 1px solid red; */
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
+  }
 .clients {
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     width: 100%;
     height: auto;
     margin: 1.25rem auto;
@@ -89,7 +124,7 @@
 }
 
 .clients .roller {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: auto;
     width: 125rem;
     position: relative;
@@ -101,12 +136,16 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
-.clients .spons {
+.clients .roller .spons {
     border: 1px solid black;
     height: 15.625rem;
     width: 15.625rem;
 }
-
+.clients .roller .spons .sponsor {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 @media screen and (max-width: 800px) {
   .main p {
     font-size: 35px;

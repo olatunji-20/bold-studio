@@ -21,6 +21,9 @@
               <h3>WE DESIGN THE FUTURE IN MIND.</h3>
               <div class="project">
                 <h4>VIEW LATEST PROJECTS</h4>
+                <div class="arrow">
+                  <img src="../assets/arrow.png" class="logoo" />
+                </div>
               </div>
             </div>
             <div class="sec">
@@ -131,7 +134,15 @@
   .first .project h4 {
     line-height: 0px;
     position: relative;
-    top: 0.3125rem;
+    /* top: 0.3125rem; */
+    display: inline-block;
+  }
+  .first .project .arrow {
+    border: 1px solid red;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
   }
   .sec {
     width: 35%;
