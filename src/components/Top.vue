@@ -139,9 +139,9 @@
   }
   .first .project .arrow {
     border: 1px solid red;
-    width: 15px;
-    height: 15px;
-    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    margin-left: 7px;
     display: inline-block;
   }
   .sec {

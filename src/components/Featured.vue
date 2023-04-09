@@ -24,13 +24,17 @@
                     <p class="year">2021</p>
                 </div>
                 <div class="four">
-                    <div class="image"></div>
+                    <div class="image">
+                      <img src="../assets/mirror.png" class="featured-image" />
+                    </div>
                     <p class="house">BONSAI AVE</p>
                     <p class="location">LAGOS</p>
                     <p class="year">2023</p>
                 </div>
                 <div class="three ">
-                    <div class="image"></div>
+                    <div class="image">
+                      <img src="../assets/vera.png" class="featured-image" />
+                    </div>
                     <p class="house">MODERN VILLA</p>
                     <p class="location">VANCOUVER</p>
                     <p class="year">2022</p>
@@ -79,9 +83,9 @@ export default {
   }
   .main .view .arrow {
     border: 1px solid red;
-    width: 15px;
-    height: 15px;
-    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    margin-left: 7px;
     display: inline-block;
   }
   .logoo {
@@ -109,7 +113,7 @@ export default {
     width: 100%;
     height: 46.875rem;
 }
-.main .project .one .image .featured-image {
+.featured-image {
   width: 100%;
   height: 100%;
   object-fit: fill;

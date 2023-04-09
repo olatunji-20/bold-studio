@@ -1,7 +1,7 @@
 <template>
   <section class="maine">
     <div class="one">
-      <h1>Study Together</h1>
+      <h1>BOLD STUDIO</h1>
       <p>Help you study more often than before.</p>
       <div class="socials">
         <div class="social"><Facebook /></div>

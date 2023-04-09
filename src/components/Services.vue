@@ -23,8 +23,12 @@
                 </div>
             </div>
             <div class="project">
-                <div class="one"></div>
-                <div class="two"></div>
+                <div class="one">
+                    <img src="../assets/window.png" class="service-image" />
+                </div>
+                <div class="two">
+                      <img src="../assets/pillow.png" class="service-image" />
+                </div>
             </div>
         </div>
     </section>
@@ -92,6 +96,11 @@ export default {
     width: 43%;
     height: 34.375rem;
     margin-top: 21.875rem;
+}
+.service-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 @media screen and (max-width: 800px) {
