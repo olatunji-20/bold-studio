@@ -2,7 +2,7 @@
   <section class="maine">
     <div class="one">
       <h1>BOLD STUDIO</h1>
-      <p>Help you study more often than before.</p>
+      <p>We design the future in mind.</p>
       <div class="socials">
         <div class="social"><Facebook /></div>
         <div class="social"><Twitter /></div>

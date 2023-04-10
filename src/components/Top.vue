@@ -65,8 +65,8 @@
   .main {
     width: 100%;
     height: 7.5rem;
-    background: pink;
-    border: 1px solid red;
+    /* background: pink; */
+    /* border: 1px solid red; */
     padding: 1.875rem;
     display: flex;
     flex-direction: row;
@@ -75,7 +75,7 @@
   .logo {
     width: 180px;
     height: 30px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: relative;
     top: 12px;
     right: 3.125rem;
@@ -88,7 +88,7 @@
   .options {
     width: auto;
     height: 3.125rem;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
   .options ul li {
     list-style-type: none;
@@ -96,16 +96,25 @@
     font-size: 14px;
     margin: 0px 15px 0px 0px;
   }
+
+  .options ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
   .start {
     width: 12.75rem;
     height: 2.8125rem;
-    border: 1px solid red;
+    border: 1px solid black;
     position: relative;
     left: 1.25rem;
     font-size: 14px;
   }
+  .start:hover {
+    border: 1px solid tomato;
+    cursor: pointer;
+  }
   .design {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     height: auto;
     display: flex;
@@ -117,7 +126,7 @@
   .first {
     width: 60%;
     height: 15.625rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: inline-block; */
     padding: 0.3125rem 1.25rem;
     text-align: left;
@@ -126,7 +135,7 @@
     font-size: 45px;
   }
   .first .project {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: auto;
     width: 15.625rem;
     /* padding: 5px; */
@@ -138,7 +147,7 @@
     display: inline-block;
   }
   .first .project .arrow {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 12px;
     height: 12px;
     margin-left: 7px;
@@ -147,14 +156,14 @@
   .sec {
     width: 35%;
     height: 15.625rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* display: inline-block; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
   .sec .approach {
-    border: 1px solid firebrick;
+    /* border: 1px solid firebrick; */
     height: auto;
     width: 100%;
     text-align: left;
@@ -165,7 +174,7 @@
   .large-image {
     width: 94%;
     height: 43.75rem;
-    border: 1px solid darkblue;
+    /* border: 1px solid darkblue; */
     margin: 3.125rem auto 6.25rem;
   }
   .pictures {
@@ -174,7 +183,7 @@
     object-fit: cover;
   }
   .creating {
-    border: 2px solid goldenrod;
+    border-bottom: 2px solid black;
     width: 94%;
     height: auto;
     padding: 0.62rem;
@@ -187,13 +196,13 @@
   .creating .create {
     width: 48%;
     height: 18.75rem;
-    border: 1px solid chartreuse;
+    /* border: 1px solid chartreuse; */
     text-align: left;
   }
    .creating .create2 {
     width: 43%;
     height: 18.75rem;
-    border: 1px solid chartreuse;
+    /* border: 1px solid chartreuse; */
     text-align: left;
     padding-top: 1rem;
     font-size: 14px;

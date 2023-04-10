@@ -101,11 +101,11 @@ export default {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .main .project .one  {
     border: 1px solid blue;
-    width: 47%;
+    width: 46%;
     height: 50rem;
 }
 .main .project .one .image {
@@ -120,7 +120,7 @@ export default {
 }
 .main .project .two  {
     border: 1px solid red;
-    width: 47%;
+    width: 46%;
     height: 43.75rem;
 }
 
@@ -131,7 +131,7 @@ export default {
 }
 .main .project .three  {
     border: 1px solid blue;
-    width: 47%;
+    width: 46%;
     height: 50rem;
     position: relative;
     bottom: 3.125rem;
@@ -144,7 +144,7 @@ export default {
 }
 .main .project .four  {
     border: 1px solid red;
-    width: 47%;
+    width: 46%;
     height: 43.75rem;
     position: relative;
     top: 3.125rem;
