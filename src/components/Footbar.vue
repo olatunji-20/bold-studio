@@ -62,7 +62,7 @@ export default {
 
 <style scoped>
 .maine {
-  background: black;
+  background: #262626;
   color: white;
   width: 100%;
   height: auto;

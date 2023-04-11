@@ -1,98 +1,112 @@
 <template>
-    <section>
-        <div class="main">
-            <p>CLIENTS</p>
-            <div class="view">              
-              <h4>VIEW ALL WORK</h4>
-                <div class="arrow">
-                  <img src="../assets/arrow.png" class="logoo" />
-                </div>
-            </div>
-            <div class="clients">
-                <div class="roller">
-                    <div class="spons">
-                      <img src="../assets/ad.png" class="sponsor"/>
-                    </div>
-                    <div class="spons">
-                      <img src="../assets/copysmith.png" class="sponsor"/>
-                    </div>
-                    <div class="spons">
-                      <img src="../assets/algorand.png" class="sponsor"/>
-                    </div>
-                    <div class="spons">
-                      <img src="../assets/google.png" class="sponsor"/>
-                    </div>
-                    <div class="spons">
-                      <img src="../assets/copysmith.png" class="sponsor"/>
-                    </div>
-                    <div class="spons">
-                      <img src="../assets/algorand.png" class="sponsor"/>
-                    </div>
-                </div>
-            </div>
+  <section>
+    <div class="main">
+      <p>CLIENTS</p>
+      <div class="view">
+        <h4>VIEW ALL WORK</h4>
+        <div class="arrow">
+          <img src="../assets/arrow.png" class="logoo" />
         </div>
-    </section>
+      </div>
+      <div class="clients">
+        <div class="roller">
+          <div class="spons">
+            <img src="../assets/ad.png" class="sponsor" loading="lazy" />
+          </div>
+          <div class="spons">
+            <img src="../assets/copysmith.png" class="sponsor" loading="lazy" />
+          </div>
+          <div class="spons">
+            <img src="../assets/algorand.png" class="sponsor" loading="lazy" />
+          </div>
+          <div class="spons">
+            <img src="../assets/google.png" class="sponsor" loading="lazy" />
+          </div>
+          <div class="spons">
+            <img src="../assets/copysmith.png" class="sponsor" loading="lazy" />
+          </div>
+          <div class="spons">
+            <img src="../assets/algorand.png" class="sponsor" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
-    export default {
-        name: "Clients",
-        data() {
-            return {
-
-            }
-        }
-    }
+export default {
+  name: "Clients",
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style scoped>
 .main {
-    /* border: 2px solid peru; */
-    width: 93%;
-    height: 31.25rem;
-    text-align: left;
-    padding-bottom: 3.125rem;
-    margin: 3.125rem auto 0rem;
+  /* border: 2px solid peru; */
+  width: 93%;
+  height: 31.25rem;
+  text-align: left;
+  padding-bottom: 3.125rem;
+  margin: 3.125rem auto 0rem;
 }
 .main p {
-    /* color: red; */
-    font-size: 40px;
-    display: inline-block;
+  /* color: red; */
+  font-size: 40px;
+  display: inline-block;
 }
 .main .view {
-    /* border: 2px solid fuchsia; */
-    height: 3.125rem;
-    width: 12.5rem;
-    /* display: inline-block; */
-    float: right;
-    margin-top: 2.5rem;
+  /* border: 2px solid fuchsia; */
+  height: 3.125rem;
+  width: 12.5rem;
+  /* display: inline-block; */
+  float: right;
+  margin-top: 2.5rem;
 }
 .main .view h4 {
-    line-height: 0px;
-    position: relative;
-    /* top: 0.3125rem; */
-    display: inline-block;
-    text-decoration: underline;
+  line-height: 0px;
+  position: relative;
+  /* top: 0.3125rem; */
+  display: inline-block;
+  text-decoration: underline;
+}
+.logoo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@keyframes blinkd {
+  0% {
+    margin-left: 0px;
   }
-  .logoo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  .main .view .arrow {
-    /* border: 1px solid red; */
-    width: 12px;
-    height: 12px;
+  50% {
     margin-left: 7px;
-    display: inline-block;
   }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.main .view .arrow {
+  /* border: 1px solid red; */
+  width: 12px;
+  height: 12px;
+  margin-left: 7px;
+  display: inline-block;
+  animation-name: blinkd;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
 .clients {
-    /* border: 1px solid blueviolet; */
-    width: 100%;
-    height: auto;
-    margin: 1.25rem auto;
-    padding: 1.25rem;
-    overflow: hidden;
+  /* border: 1px solid blueviolet; */
+  width: 100%;
+  height: auto;
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+  overflow: hidden;
 }
 @keyframes scrollee {
   0% {
@@ -125,22 +139,22 @@
 }
 
 .clients .roller {
-    /* border: 2px solid red; */
-    height: auto;
-    width: 125rem;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    animation-name: scrollee;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+  /* border: 2px solid red; */
+  height: auto;
+  width: 125rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  animation-name: scrollee;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .clients .roller .spons {
-    border: 1px solid black;
-    height: 15.625rem;
-    width: 15.625rem;
+  border: 1px solid black;
+  height: 15.625rem;
+  width: 15.625rem;
 }
 .clients .roller .spons .sponsor {
   width: 100%;
@@ -155,8 +169,6 @@
     margin-top: 2rem;
   }
 }
-
-
 
 @media screen and (max-width: 480px) {
   .main p {

@@ -24,10 +24,10 @@
             </div>
             <div class="project">
                 <div class="one">
-                    <img src="../assets/window.png" class="service-image" />
+                    <img src="../assets/window.png" class="service-image" loading="lazy" />
                 </div>
                 <div class="two">
-                      <img src="../assets/pillow.png" class="service-image" />
+                      <img src="../assets/pillow.png" class="service-image" loading="lazy" />
                 </div>
             </div>
         </div>
@@ -72,6 +72,13 @@ export default {
     /* border: 1px solid brown; */
     width: 21.875rem;
     height: 15.625rem;
+    position: relative;
+    cursor: pointer;
+    top: 0px;
+    transition: .4s;
+}
+.main .interior .int:hover {
+    top: 10px;
 }
 .main .interior .int .com {
     font-size: 14px;

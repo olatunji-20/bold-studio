@@ -108,9 +108,10 @@
     position: relative;
     left: 2rem;
     font-size: 14px;
+    transition: 0.5s;
   }
   .start:hover {
-    border: 1px solid tomato;
+    border: 1px solid green;
     cursor: pointer;
   }
   .design {
@@ -148,12 +149,28 @@
     /* top: 0.3125rem; */
     display: inline-block;
   }
+
+  @keyframes blinkd {
+    0% {
+      margin-left: 0px;
+    }
+    50% {
+      margin-left: 7px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
   .first .project .arrow {
     /* border: 1px solid red; */
     width: 12px;
     height: 12px;
     margin-left: 7px;
     display: inline-block;
+    animation-name: blinkd;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
   }
   .sec {
     width: 35%;

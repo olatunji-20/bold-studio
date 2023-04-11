@@ -9,22 +9,22 @@
 </template>
 
 <script>
-import Top from './components/Top.vue'
-import Clients from './components/Clients.vue'
-import Featured from './components/Featured.vue'
-import Services from './components/Services.vue'
-import Footbar from './components/Footbar.vue'
+import Top from "./components/Top.vue";
+import Clients from "./components/Clients.vue";
+import Featured from "./components/Featured.vue";
+import Services from "./components/Services.vue";
+import Footbar from "./components/Footbar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Top,
     Clients,
     Featured,
     Services,
-    Footbar
-  }
-}
+    Footbar,
+  },
+};
 </script>
 
 <style>
@@ -32,8 +32,8 @@ export default {
   box-sizing: border-box;
 }
 body {
-    margin: 0px !important;
-  }
+  margin: 0px !important;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

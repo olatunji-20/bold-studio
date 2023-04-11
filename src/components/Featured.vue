@@ -11,7 +11,7 @@
             <div class="project">
                 <div class="one">
                     <div class="image">
-                      <img src="../assets/bulb.png" class="featured-image" />
+                      <img src="../assets/bulb.png" class="featured-image" loading="lazy"/>
                     </div>
                     <p class="house">STRANFIELD</p>
                     <p class="location">LONDON</p>
@@ -19,7 +19,7 @@
                 </div>
                 <div class="two">
                     <div class="image">
-                      <img src="../assets/last.png" class="featured-image" />
+                      <img src="../assets/last.png" class="featured-image" loading="lazy" />
                     </div>
                     <p class="house">TERRACE HOUSE</p>
                     <p class="location">NEW YORK</p>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="four">
                     <div class="image">
-                      <img src="../assets/mirror.png" class="featured-image" />
+                      <img src="../assets/mirror.png" class="featured-image" loading="lazy" />
                     </div>
                     <p class="house">BONSAI AVE</p>
                     <p class="location">LAGOS</p>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="three ">
                     <div class="image">
-                      <img src="../assets/vera.png" class="featured-image" />
+                      <img src="../assets/vera.png" class="featured-image" loading="lazy" />
                     </div>
                     <p class="house">MODERN VILLA</p>
                     <p class="location">VANCOUVER</p>
@@ -84,12 +84,28 @@ export default {
     display: inline-block;
     text-decoration: underline;
   }
+  @keyframes blinkd {
+    0% {
+      margin-left: 0px;
+    }
+    50% {
+      margin-left: 7px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
+
   .main .view .arrow {
     /* border: 1px solid red; */
     width: 12px;
     height: 12px;
     margin-left: 7px;
     display: inline-block;
+    animation-name: blinkd;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;  
   }
   .logoo {
     width: 100%;
@@ -124,7 +140,7 @@ export default {
   opacity: 0.8;
 }
 .featured-image:hover {
-  transform: scale(0.98);
+  transform: scale(0.99);
   opacity: 1;
   cursor: pointer;
 }
