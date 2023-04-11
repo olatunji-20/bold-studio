@@ -46,7 +46,7 @@ export default {
 
 <style scoped>
 .main {
-    border: 2px solid teal;
+    border-top: 2px solid black;
     width: 93%;
     height: auto;
     margin: 3.25rem auto;
@@ -54,12 +54,12 @@ export default {
     text-align: left;
 }
 .main .ser {
-    color: green;
+    /* color: green; */
     font-size: 40px;
     display: inline-block;
 }
 .main .interior {
-    border: 1px solid orangered;
+    /* border: 1px solid orangered; */
     height: auto;
     width: 100%;
     padding: 1.25rem 0rem;
@@ -69,7 +69,7 @@ export default {
     margin-bottom: 5rem;
 }
 .main .interior .int {
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     width: 21.875rem;
     height: 15.625rem;
 }
@@ -78,7 +78,7 @@ export default {
     line-height: 18px;
 }
 .main .project {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     margin-top: 1.25rem;
     width: 100%;
     height: auto;
@@ -87,12 +87,12 @@ export default {
     justify-content: space-between;
 }
 .main .project .one {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 48%;
     height: 40.625rem;
 }
 .main .project .two {
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     width: 43%;
     height: 34.375rem;
     margin-top: 21.875rem;

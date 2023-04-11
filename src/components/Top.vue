@@ -106,7 +106,7 @@
     height: 2.8125rem;
     border: 1px solid black;
     position: relative;
-    left: 1.25rem;
+    left: 2rem;
     font-size: 14px;
   }
   .start:hover {

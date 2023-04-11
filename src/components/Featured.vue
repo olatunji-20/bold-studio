@@ -18,7 +18,9 @@
                     <p class="year">2022</p>
                 </div>
                 <div class="two">
-                    <div class="image"></div>
+                    <div class="image">
+                      <img src="../assets/last.png" class="featured-image" />
+                    </div>
                     <p class="house">TERRACE HOUSE</p>
                     <p class="location">NEW YORK</p>
                     <p class="year">2021</p>
@@ -55,7 +57,7 @@ export default {
 
 <style scoped>
 .main {
-    border: 2px solid teal;
+    border-top: 2px solid black;
     width: 93%;
     height: auto;
     margin: 3.125rem auto;
@@ -63,12 +65,12 @@ export default {
     text-align: left;
 }
 .main .feat {
-    color: lightcoral;
+    /* color: lightcoral; */
     font-size: 40px;
     display: inline-block;
 }
 .main .view {
-    border: 2px solid fuchsia;
+    /* border: 2px solid fuchsia; */
     height: 3.125rem;
     width: 9.375rem;
     /* display: inline-block; */
@@ -80,9 +82,10 @@ export default {
     position: relative;
     /* top: 0.3125rem; */
     display: inline-block;
+    text-decoration: underline;
   }
   .main .view .arrow {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 12px;
     height: 12px;
     margin-left: 7px;
@@ -94,22 +97,22 @@ export default {
     object-fit: contain;
   }
 .main .project {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     margin-top: 1.25rem;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .main .project .one  {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 46%;
     height: 50rem;
 }
 .main .project .one .image {
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     width: 100%;
     height: 46.875rem;
 }
@@ -117,20 +120,27 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: fill;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.featured-image:hover {
+  transform: scale(0.98);
+  opacity: 1;
+  cursor: pointer;
 }
 .main .project .two  {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 46%;
     height: 43.75rem;
 }
 
 .main .project .two .image {
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     width: 100%;
     height: 40.625rem;
 }
 .main .project .three  {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 46%;
     height: 50rem;
     position: relative;
@@ -138,12 +148,12 @@ export default {
 }
 
 .main .project .three .image {
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     width: 100%;
     height: 46.875rem;
 }
 .main .project .four  {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 46%;
     height: 43.75rem;
     position: relative;
@@ -151,7 +161,7 @@ export default {
 }
 
 .main .project .four .image {
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     width: 100%;
     height: 40.625rem;
 }

@@ -55,7 +55,7 @@
     margin: 3.125rem auto 0rem;
 }
 .main p {
-    color: red;
+    /* color: red; */
     font-size: 40px;
     display: inline-block;
 }
@@ -72,6 +72,7 @@
     position: relative;
     /* top: 0.3125rem; */
     display: inline-block;
+    text-decoration: underline;
   }
   .logoo {
     width: 100%;
