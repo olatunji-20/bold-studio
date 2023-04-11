@@ -115,13 +115,14 @@
   }
   .design {
     /* border: 2px solid blue; */
-    width: 100%;
+    width: 96%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 6.25rem;
     justify-content: space-between;
+    margin: 0px auto;
   }
   .first {
     width: 60%;
@@ -143,6 +144,7 @@
   .first .project h4 {
     line-height: 0px;
     position: relative;
+    text-decoration: underline;
     /* top: 0.3125rem; */
     display: inline-block;
   }
@@ -167,6 +169,7 @@
     height: auto;
     width: 100%;
     text-align: left;
+    padding-right: 5px;
     /* margin-top: 10.625rem; */
     font-size: 14px;
     line-height: 20px;
