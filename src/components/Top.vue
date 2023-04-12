@@ -18,7 +18,7 @@
         </div>
         <div class="design">
             <div class="first">
-              <h3>WE DESIGN THE FUTURE IN MIND.</h3>
+              <h3>WE DESIGN WITH THE FUTURE IN MIND.</h3>
               <div class="project">
                 <h4>VIEW LATEST PROJECTS</h4>
                 <div class="arrow">
@@ -95,6 +95,7 @@
     display: inline-block;
     font-size: 14px;
     margin: 0px 15px 0px 0px;
+    transition: .5s ease;
   }
 
   .options ul li:hover {
