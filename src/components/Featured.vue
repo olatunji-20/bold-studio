@@ -1,136 +1,144 @@
 <template>
-    <section>
-        <div class="main">
-            <p class="feat">FEATURED PROJECTS</p>
-            <div class="view">              
-              <h4>VIEW ALL</h4>
-                <div class="arrow">
-                  <img src="../assets/arrow.png" class="logoo" />
-                </div>
-            </div>
-            <div class="project">
-                <div class="one">
-                    <div class="image">
-                      <img src="../assets/bulb.png" class="featured-image" loading="lazy"/>
-                    </div>
-                    <p class="house">STRANFIELD</p>
-                    <p class="location">LONDON</p>
-                    <p class="year">2022</p>
-                </div>
-                <div class="two">
-                    <div class="image">
-                      <img src="../assets/last.png" class="featured-image" loading="lazy" />
-                    </div>
-                    <p class="house">TERRACE HOUSE</p>
-                    <p class="location">NEW YORK</p>
-                    <p class="year">2021</p>
-                </div>
-                <div class="four">
-                    <div class="image">
-                      <img src="../assets/mirror.png" class="featured-image" loading="lazy" />
-                    </div>
-                    <p class="house">BONSAI AVE</p>
-                    <p class="location">LAGOS</p>
-                    <p class="year">2023</p>
-                </div>
-                <div class="three ">
-                    <div class="image">
-                      <img src="../assets/vera.png" class="featured-image" loading="lazy" />
-                    </div>
-                    <p class="house">MODERN VILLA</p>
-                    <p class="location">VANCOUVER</p>
-                    <p class="year">2022</p>
-                </div>
-            </div>
+  <section>
+    <div class="main">
+      <p class="feat">FEATURED PROJECTS</p>
+      <div class="view">
+        <h4>VIEW ALL</h4>
+        <div class="arrow">
+          <img src="../assets/arrow.png" class="logoo" />
         </div>
-    </section>
+      </div>
+      <div class="project">
+        <div class="one">
+          <div class="image">
+            <img
+              src="../assets/bulb.png"
+              class="featured-image"
+              loading="lazy"
+            />
+          </div>
+          <p class="house">STRANFIELD</p>
+          <p class="location">LONDON</p>
+          <p class="year">2022</p>
+        </div>
+        <div class="two">
+          <div class="image">
+            <img
+              src="../assets/last.png"
+              class="featured-image"
+              loading="lazy"
+            />
+          </div>
+          <p class="house">TERRACE HOUSE</p>
+          <p class="location">NEW YORK</p>
+          <p class="year">2021</p>
+        </div>
+        <div class="four">
+          <div class="image">
+            <img
+              src="../assets/mirror.png"
+              class="featured-image"
+              loading="lazy"
+            />
+          </div>
+          <p class="house">BONSAI AVE</p>
+          <p class="location">LAGOS</p>
+          <p class="year">2023</p>
+        </div>
+        <div class="three">
+          <div class="image">
+            <img
+              src="../assets/vera.png"
+              class="featured-image"
+              loading="lazy"
+            />
+          </div>
+          <p class="house">MODERN VILLA</p>
+          <p class="location">VANCOUVER</p>
+          <p class="year">2022</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
-    name: "Featured",
-    data() {
-        return{}
-    }
-}
+  name: "Featured",
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style scoped>
 .main {
-    border-top: 2px solid black;
-    width: 93%;
-    height: auto;
-    margin: 3.125rem auto;
-    padding: 5rem 0rem;
-    text-align: left;
+  border-top: 2px solid black;
+  width: 93%;
+  height: auto;
+  margin: 3.125rem auto;
+  padding: 5rem 0rem;
+  text-align: left;
 }
 .main .feat {
-    /* color: lightcoral; */
-    font-size: 40px;
-    display: inline-block;
+  font-size: 40px;
+  display: inline-block;
 }
 .main .view {
-    /* border: 2px solid fuchsia; */
-    height: 3.125rem;
-    width: 9.375rem;
-    /* display: inline-block; */
-    float: right;
-    margin-top: 2.5rem;
-} 
-.main .view h4 {
-    line-height: 0px;
-    position: relative;
-    /* top: 0.3125rem; */
-    display: inline-block;
-    text-decoration: underline;
-  }
-  @keyframes blinkd {
-    0% {
-      margin-left: 0px;
-    }
-    50% {
-      margin-left: 7px;
-    }
-    100% {
-      margin-left: 0px;
-    }
-  }
-
-  .main .view .arrow {
-    /* border: 1px solid red; */
-    width: 12px;
-    height: 12px;
-    margin-left: 7px;
-    display: inline-block;
-    animation-name: blinkd;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;  
-  }
-  .logoo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-.main .project {
-    /* border: 2px solid violet; */
-    margin-top: 1.25rem;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  height: 3.125rem;
+  width: 9.375rem;
+  float: right;
+  margin-top: 2.5rem;
 }
-.main .project .one  {
-    /* border: 1px solid blue; */
-    width: 46%;
-    height: 50rem;
+.main .view h4 {
+  line-height: 0px;
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+}
+@keyframes blinkd {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 7px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.main .view .arrow {
+  width: 12px;
+  height: 12px;
+  margin-left: 7px;
+  display: inline-block;
+  animation-name: blinkd;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.logoo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.main .project {
+  margin-top: 1.25rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .project .one {
+  width: 46%;
+  height: 50rem;
 }
 .main .project .one .image {
-    /* border: 1px solid yellowgreen; */
-    width: 100%;
-    height: 46.875rem;
+  width: 100%;
+  height: 46.875rem;
 }
 .featured-image {
   width: 100%;
@@ -144,57 +152,51 @@ export default {
   opacity: 1;
   cursor: pointer;
 }
-.main .project .two  {
-    /* border: 1px solid red; */
-    width: 46%;
-    height: 43.75rem;
+.main .project .two {
+  width: 46%;
+  height: 43.75rem;
 }
 
 .main .project .two .image {
-    /* border: 1px solid yellowgreen; */
-    width: 100%;
-    height: 40.625rem;
+  width: 100%;
+  height: 40.625rem;
 }
-.main .project .three  {
-    /* border: 1px solid blue; */
-    width: 46%;
-    height: 50rem;
-    position: relative;
-    bottom: 3.125rem;
+.main .project .three {
+  width: 46%;
+  height: 50rem;
+  position: relative;
+  bottom: 3.125rem;
 }
 
 .main .project .three .image {
-    /* border: 1px solid yellowgreen; */
-    width: 100%;
-    height: 46.875rem;
+  width: 100%;
+  height: 46.875rem;
 }
-.main .project .four  {
-    /* border: 1px solid red; */
-    width: 46%;
-    height: 43.75rem;
-    position: relative;
-    top: 3.125rem;
+.main .project .four {
+  width: 46%;
+  height: 43.75rem;
+  position: relative;
+  top: 3.125rem;
 }
 
 .main .project .four .image {
-    /* border: 1px solid yellowgreen; */
-    width: 100%;
-    height: 40.625rem;
+  width: 100%;
+  height: 40.625rem;
 }
 .house {
-    display: inline-block;
-    font-size: 17px;
+  display: inline-block;
+  font-size: 17px;
 }
 .location {
-    display: inline-block;
-    font-size: 11px;
-    margin-left: 1.25rem;
-    vertical-align: super;
+  display: inline-block;
+  font-size: 11px;
+  margin-left: 1.25rem;
+  vertical-align: super;
 }
 .year {
-    float: right;
-    font-weight: bold;
-    font-size: 17px;
+  float: right;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 @media screen and (max-width: 800px) {
@@ -237,15 +239,7 @@ export default {
     width: 100%;
     height: 27rem;
   }
-
-
-
-
-
-
 }
-
-
 
 @media screen and (max-width: 480px) {
   .main p {
@@ -299,7 +293,7 @@ export default {
   .main .project .two .house,
   .main .project .three .house,
   .main .project .four .house {
-    font-size: 17px
+    font-size: 17px;
   }
   .main .project .one .location,
   .main .project .two .location,

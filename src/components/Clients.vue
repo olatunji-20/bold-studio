@@ -11,9 +11,6 @@
       <div class="clients">
         <div class="roller">
           <div class="spons">
-            <img src="../assets/ad.png" class="sponsor" loading="lazy" />
-          </div>
-          <div class="spons">
             <img src="../assets/copysmith.png" class="sponsor" loading="lazy" />
           </div>
           <div class="spons">
@@ -21,6 +18,9 @@
           </div>
           <div class="spons">
             <img src="../assets/google.png" class="sponsor" loading="lazy" />
+          </div>
+          <div class="spons">
+            <img src="../assets/ad.png" class="sponsor" loading="lazy" />
           </div>
           <div class="spons">
             <img src="../assets/copysmith.png" class="sponsor" loading="lazy" />
@@ -45,7 +45,6 @@ export default {
 
 <style scoped>
 .main {
-  /* border: 2px solid peru; */
   width: 93%;
   height: 31.25rem;
   text-align: left;
@@ -53,22 +52,18 @@ export default {
   margin: 3.125rem auto 0rem;
 }
 .main p {
-  /* color: red; */
   font-size: 40px;
   display: inline-block;
 }
 .main .view {
-  /* border: 2px solid fuchsia; */
   height: 3.125rem;
   width: 12.5rem;
-  /* display: inline-block; */
   float: right;
   margin-top: 2.5rem;
 }
 .main .view h4 {
   line-height: 0px;
   position: relative;
-  /* top: 0.3125rem; */
   display: inline-block;
   text-decoration: underline;
 }
@@ -90,7 +85,6 @@ export default {
 }
 
 .main .view .arrow {
-  /* border: 1px solid red; */
   width: 12px;
   height: 12px;
   margin-left: 7px;
@@ -101,7 +95,6 @@ export default {
   animation-iteration-count: infinite;
 }
 .clients {
-  /* border: 1px solid blueviolet; */
   width: 100%;
   height: auto;
   margin: 1.25rem auto;
@@ -139,7 +132,6 @@ export default {
 }
 
 .clients .roller {
-  /* border: 2px solid red; */
   height: auto;
   width: 125rem;
   position: relative;

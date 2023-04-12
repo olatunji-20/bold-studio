@@ -66,7 +66,7 @@ export default {
   color: white;
   width: 100%;
   height: auto;
-  border-top: 1px solid aquamarine;
+  border-top: 3px solid goldenrod;
   margin: 0rem auto;
   display: flex;
   flex-direction: row;
