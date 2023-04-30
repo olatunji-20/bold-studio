@@ -24,7 +24,7 @@
         <div class="two">
           <div class="image">
             <img
-              src="../assets/last.png"
+              src="../assets/images.png"
               class="featured-image"
               loading="lazy"
             />
