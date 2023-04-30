@@ -240,6 +240,7 @@ export default {
 @media screen and (max-width: 480px) {
   .main {
     justify-content: flex-start;
+    box-shadow: 2px 2px 2px grey;
   }
   .options {
     display: none;
